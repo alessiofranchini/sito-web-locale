@@ -38,19 +38,20 @@
   }
 }
 
-body {
-  color: white;
+body{
+  background-color: black !important;
 }
 
 /* Component Navbar */
 
-.immagine-cocktail {
+.sfondo {
   background-image: url('../src/assets/img/cocktail.jpg');
-  background-size: cover;
+  background-attachment: fixed;
   background-position: center;
+  background-size: cover;
+  overflow-y: scroll;
+  height: 600px;
 }
-
-/* Component Generali */
 
 .testo-generali {
   background-color: black;
@@ -67,6 +68,7 @@ body {
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
   padding: 50px;
+  margin-bottom: 50px;
 }
 
 .custom-container h1 {
@@ -81,4 +83,19 @@ body {
   border: 2px solid #ffffff;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/* Component MyCard */
+
+.container-card {
+  background-color: black;
+  padding: 5em;
+}
+
+.card-due {
+  margin-top: 5em;
+}
+
+.testo-card {
+  color: white;
 }
