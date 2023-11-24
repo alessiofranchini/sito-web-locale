@@ -32,7 +32,53 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  color: white;
+}
+
+/* Component Navbar */
+
+.immagine-cocktail {
+  background-image: url('../src/assets/img/cocktail.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Component Generali */
+
+.testo-generali {
+  background-color: black;
+  color: white;
+}
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  padding: 50px;
+}
+
+.custom-container h1 {
+  font-size: 150px;
+}
+
+.my-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: black;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
 }
