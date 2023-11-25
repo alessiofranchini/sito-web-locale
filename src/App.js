@@ -4,6 +4,7 @@ import CustomNavbar from './components/CustomNavbar';
 import MyCard from './components/MyCard';
 import Foto from './components/Foto';
 import BarFooter from './components/BarFooter.jsx';
+import ReservationForm from './components/ReservationForm.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CustomNavbar />
       <MyCard />
       <Foto />
+      <ReservationForm />
       <BarFooter />
     </div>
   );

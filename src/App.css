@@ -108,5 +108,43 @@ body{
   transform: scale(0.9);
 }
 
+/* Component Foto */
+
+.testo-foto {
+  color: white;
+}
 
 
+/* Component ReservationForm */
+
+.reservation-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Component BarFooter */
+
+.footer {
+  background-color:black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

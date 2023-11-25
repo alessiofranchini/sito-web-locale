@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Row, Col, Nav, Button } from 'react-bootstrap';
+import logo from '../assets/img/logo.jpg';
 
 const MyNavbar = () => {
     return (
@@ -9,16 +10,13 @@ const MyNavbar = () => {
                     <Row className="w-100">
                         <Col xs={12} lg={6}>
                             <Navbar.Brand href="#" style={{ color: 'white' }}>
-                                {/* Inserisci qui il tuo logo */}
-                                {/* Esempio: <img src="logo.png" alt="Logo" height="30" /> */}
-                                Logo
+                                <img src={logo} alt="Logo" height="100" />
                             </Navbar.Brand>
                         </Col>
                         <Col xs={12} lg={6} className="d-flex justify-content-end">
                             <Nav>
-                                <Nav.Link href="#" style={{ color: 'white' }}>Posizione</Nav.Link>
-                                <Nav.Link href="#" style={{ color: 'white' }}>Menù</Nav.Link>
-                                <Nav.Link href="#" style={{ color: 'white' }}>Contattaci</Nav.Link>
+                                <Nav.Link href="/foto" style={{ color: 'white' }}>Foto</Nav.Link>
+                                <Nav.Link href="/prenota" style={{ color: 'white' }}>Contattaci</Nav.Link>
                             </Nav>
                         </Col>
                     </Row>
@@ -27,7 +25,7 @@ const MyNavbar = () => {
             <div className="text-center mt-5 testo-generali custom-container">
                 <Row>
                     <Col>
-                        <h1>Bar</h1>
+                        <h1>Pub</h1>
                     </Col>
                 </Row>
                 <Row>
@@ -38,7 +36,7 @@ const MyNavbar = () => {
                 <Row>
                     <Col>
                         <Button className='my-button' size="lg" href="#menu">
-                            Menù
+                            Prenota
                         </Button>
                     </Col>
                 </Row>

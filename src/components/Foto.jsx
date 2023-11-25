@@ -8,7 +8,8 @@ import persone5 from '../assets/img/persone5.jpeg';
 
 const Foto = () => {
     return (
-        <Container>
+        <Container className='testo-foto'>
+            <h2 className='mb-5'>Le nostre foto</h2>
             <Row>
                 {/* Colonna per la foto grande */}
                 <Col lg={6} md={6} className="mb-3">
