@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import CustomNavbar from './components/CustomNavbar';
 import MyCard from './components/MyCard';
 import Foto from './components/Foto';
+import BarFooter from './components/BarFooter.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <CustomNavbar />
       <MyCard />
       <Foto />
+      <BarFooter />
     </div>
   );
 }

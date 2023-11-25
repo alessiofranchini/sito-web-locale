@@ -99,3 +99,14 @@ body{
 .testo-card {
   color: white;
 }
+
+.zoomable {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoomable:hover {
+  transform: scale(0.9);
+}
+
+
+
